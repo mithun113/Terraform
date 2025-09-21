@@ -17,5 +17,5 @@ it has steps like:
 tf state file is automaticslly store all the details about terrsaform file and script in locally
 but it is not safe thats why we use backend for storing and lock wit dynamodb
 we use s3 bucket for backend storing purpose
-
+.TFVARS we use tfvars for the assign values to the variables 
                   

@@ -18,4 +18,39 @@ tf state file is automaticslly store all the details about terrsaform file and s
 but it is not safe thats why we use backend for storing and lock wit dynamodb
 we use s3 bucket for backend storing purpose
 .TFVARS we use tfvars for the assign values to the variables 
-                  
+
+
+
+TO CREATE SECURITY SETUP WE NEED TO CREATE 
+                                           SUBNET
+                                           INTERNET GATEWAY
+                                           ROUTE TABLE
+                                           ROUTE TABLE ASSOCIATE WITH SUBNET
+
+TO CREATE VP WE NEED
+
+                    CIDR
+                    ENABLE DNS SUPPORT
+                    ENABLE DN NMAE SYSYTEM
+
+TO CREATE PUBLIC SUBNET WE NEED 
+                    VPCID
+                    CIDR
+                    AVAILABILITY ZONE 
+                    MAP PUBLIC
+
+TO CREATE INTERNET GATEWAY WE NEED 
+
+                    VPCID
+
+
+ TO CREATE ROUTE TABLE WE NEED 
+                     VPCID
+                     CIDRBLOCK
+                     GATEWAYID
+
+
+  TO ASSOCIATE  ROUTE TABLE WITH SUBNET                   
+                     SUBNET ID
+                     ROUTE TABLE ID
+                     

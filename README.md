@@ -22,6 +22,7 @@ we use s3 bucket for backend storing purpose
 
 
 TO CREATE SECURITY SETUP WE NEED TO CREATE 
+
                                            SUBNET
                                            INTERNET GATEWAY
                                            ROUTE TABLE
@@ -34,6 +35,7 @@ TO CREATE VP WE NEED
                     ENABLE DN NMAE SYSYTEM
 
 TO CREATE PUBLIC SUBNET WE NEED 
+
                     VPCID
                     CIDR
                     AVAILABILITY ZONE 
@@ -45,12 +47,14 @@ TO CREATE INTERNET GATEWAY WE NEED
 
 
  TO CREATE ROUTE TABLE WE NEED 
+ 
                      VPCID
                      CIDRBLOCK
                      GATEWAYID
 
 
-  TO ASSOCIATE  ROUTE TABLE WITH SUBNET                   
+  TO ASSOCIATE  ROUTE TABLE WITH SUBNET 
+  
                      SUBNET ID
                      ROUTE TABLE ID
                      
